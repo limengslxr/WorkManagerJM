@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_assist_number" />
+
+        <EditText
+            android:id="@+id/et_assist_person"
+            style="@style/text_right_margin_style"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_remark" />
+
+        <EditText
+            android:id="@+id/et_remark"
+            style="@style/text_remark_margin_style" />
+
+    </LinearLayout>
+
+</LinearLayout>

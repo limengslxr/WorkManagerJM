@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="com.sh3h.watermanager" version="0.0.1" xmlns="http://www.w3.org/ns/widgets">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="UserInfo">
+        <param name="android-package" value="com.sh3h.workmanagerjm.plugin.UserInfoPlugin" />
+    </feature>
+    <feature name="Toolbar">
+        <param name="android-package" value="com.sh3h.workmanagerjm.plugin.ToolBarPlugin" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>waterManager</name>
+    <description>
+        An Cordova project.
+    </description>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="BackupWebStorage" value="none" />
+</widget>

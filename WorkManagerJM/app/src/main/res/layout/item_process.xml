@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_process"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/width_100"
+    android:layout_margin="@dimen/margin_2"
+    android:padding="@dimen/padding_5">
+
+    <LinearLayout
+        android:layout_width="@dimen/width_60"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_process_title"
+            android:layout_width="@dimen/width_60"
+            android:layout_height="@dimen/width_60"
+            android:background="@drawable/circle_process"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:layout_width="@dimen/width_3"
+            android:layout_height="match_parent"
+            android:background="@color/color_process" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:orientation="vertical">
+
+        <!--处理时间-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:layout_width="@dimen/width_80"
+                android:minHeight="@dimen/height_30"
+                android:text="@string/text_handle_time" />
+
+            <TextView
+                android:id="@+id/tv_item_process_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_16" />
+
+        </LinearLayout>
+
+        <!--主-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                android:id="@+id/tv_item_process_main_title"
+                style="@style/text_left_style"
+                android:minHeight="@dimen/height_30"
+                android:layout_width="@dimen/width_80" />
+
+            <TextView
+                android:id="@+id/tv_item_process_main_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                android:id="@+id/tv_item_process_less_title"
+                style="@style/text_left_style"
+                android:minHeight="@dimen/height_30"
+                android:layout_width="@dimen/width_80" />
+
+            <TextView
+                android:id="@+id/tv_item_process_less_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

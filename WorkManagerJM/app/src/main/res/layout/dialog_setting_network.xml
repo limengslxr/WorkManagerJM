@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_setting_data_address"
+        android:textColor="#80000000"
+        android:textSize="@dimen/text_size_16" />
+
+    <EditText
+        android:id="@+id/et_data_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_setting_reserved_data_address"
+        android:textColor="#80000000"
+        android:textSize="@dimen/text_size_15" />
+
+    <EditText
+        android:id="@+id/et_reserved_data_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_19" />
+
+    <CheckBox
+        android:id="@+id/cb_is_reserved_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#80000000"
+        android:textSize="@dimen/text_size_15"
+        android:text="@string/text_using_reserved_address"/>
+
+</LinearLayout>

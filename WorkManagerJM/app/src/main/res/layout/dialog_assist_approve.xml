@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--审批结果-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_approve_result" />
+
+        <Spinner
+            android:id="@+id/sp_approve_result"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--审批人数-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_approve_person_number" />
+
+        <EditText
+            android:id="@+id/et_approve_person_number"
+            style="@style/text_right_number_margin_style" />
+    </LinearLayout>
+
+    <!--协助人-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_assist_person" />
+
+        <com.sh3h.workmanagerjm.view.MultiSpinnerSearch
+            android:id="@+id/mss_assist_person"
+            style="@style/spinner_margin_style"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

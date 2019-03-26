@@ -1,0 +1,72 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--处理内容-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_handle_content" />
+
+            <EditText
+                android:id="@+id/et_handle_content"
+                style="@style/text_right_no_margin_style" />
+
+            <TextView
+                android:id="@+id/tv_handle_content"
+                style="@style/text_right_star_style" />
+        </LinearLayout>
+
+        <!--处理结果-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_handle_result" />
+
+            <Spinner
+                android:id="@+id/sp_handle_result"
+                style="@style/spinner_no_margin_style" />
+
+            <TextView style="@style/text_right_star_style" />
+        </LinearLayout>
+
+        <!--备注-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_remark" />
+
+            <EditText
+                android:id="@+id/et_remark"
+                style="@style/text_remark_margin_style" />
+        </LinearLayout>
+
+        <!--物料-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_materiel" />
+
+            <Button
+                android:id="@+id/btn_input_material"
+                style="@style/text_right_add_style" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_voice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_30"
+        android:background="@drawable/ic_voice_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_5">
+
+        <!--#c9fff5-->
+        <ImageView
+            android:id="@+id/iv_item_upload_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_cloud"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_record" />
+
+        <TextView
+            android:id="@+id/tv_item_voice_width"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:alpha="55" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_item_voice_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/padding_5"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

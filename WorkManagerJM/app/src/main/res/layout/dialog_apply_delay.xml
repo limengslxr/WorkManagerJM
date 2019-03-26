@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout_item"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_delay_time" />
+
+        <TextView
+            android:id="@+id/tv_delay_time"
+            style="@style/text_right_margin_style"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_delay_reason" />
+
+        <EditText
+            android:id="@+id/et_delay_reason"
+            style="@style/text_right_margin_style" />
+
+    </LinearLayout>
+
+</LinearLayout>

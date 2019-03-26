@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <!--工单类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_order_task_type" />
+
+        <Spinner
+            android:id="@+id/sp_task_type"
+            style="@style/spinner_margin_style" />
+
+    </LinearLayout>
+
+    <!--工单子类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_task_sub_type" />
+
+        <Spinner
+            android:id="@+id/sp_task_sub_type"
+            style="@style/spinner_margin_style" />
+
+    </LinearLayout>
+
+    <!--站点-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_station" />
+
+        <Spinner
+            android:id="@+id/sp_station"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--册号-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_volume_id" />
+
+        <EditText
+            android:id="@+id/et_volume_id"
+            style="@style/text_right_margin_style"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <!--开始时间-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_begin_time" />
+
+        <TextView
+            android:id="@+id/tv_begin_time"
+            style="@style/text_right_margin_style" />
+
+    </LinearLayout>
+
+    <!--结束时间-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_end_time" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            style="@style/text_right_margin_style" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="@dimen/width_120"
+        android:layout_height="@dimen/height_40"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@drawable/view_border"
+        android:gravity="center"
+        android:text="@string/text_search"
+        android:textColor="@color/color_gray_5b5b5b"
+        android:textSize="@dimen/text_size_18" />
+
+</LinearLayout>

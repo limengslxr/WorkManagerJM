@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#0176da</color>
+
+    <color name="color_0176da">#0176da</color>
+    <color name="color_blue_5d81c1">#5d81c1</color>
+
+    <!--刷新圆圈的颜色-->
+    <color name="color_blue_00ddff">#00ddff</color>
+    <!--cardView头部字体-->
+    <color name="color_gray_666e81">#666e81</color>
+    <!--cardView中间字体-->
+    <color name="color_gray_767676">#767676</color>
+    <color name="color_gray_E0E0E0">#E0E0E0</color>
+    <!--圆形按钮被选中的-->
+    <color name="circle_button_stroke_selected">#0083FE</color>
+    <!--圆形按钮填充的颜色-->
+    <color name="white">#ffffff</color>
+    <!--设置界面的字体颜色-->
+    <color name="gray">#AFAFAF</color>
+    <!--点击后的颜色-->
+    <color name="color_blue_0083FE">#0083FE</color>
+    <!--黑色-->
+    <color name="color_black_000000">#000000</color>
+    <!--间隔线的颜色-->
+    <color name="color_black_d2d2d2">#d2d2d2</color>
+    <color name="divider_line">#E1E1E1</color>
+    <!--点击前的颜色-->
+    <color name="color_gray_979797">#979797</color>
+    <!--enabled：false的字体-->
+    <color name="color_gray_5b5b5b">#5b5b5b</color>
+
+    <color name="color_process">#00CDCD</color>
+    <color name="color_red">#ff0000</color>
+</resources>

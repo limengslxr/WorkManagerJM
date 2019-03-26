@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sh3h.meterreading.ui.record.RecordActivity">
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@mipmap/ic_settings_white"
+        android:orderInCategory="100"
+        android:title="@string/text_setting"
+        app:showAsAction="always" />
+</menu>

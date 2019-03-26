@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--材料类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_material_type" />
+
+        <Spinner
+            android:id="@+id/sp_material_type"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--材料名称-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_material_name" />
+
+        <Spinner
+            android:id="@+id/sp_material_name"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--材料规格-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_material_standard" />
+
+        <Spinner
+            android:id="@+id/sp_material_standard"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--单位-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_material_unit" />
+
+        <Spinner
+            android:id="@+id/sp_material_unit"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--数量-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_material_number" />
+
+        <EditText
+            android:id="@+id/et_material_number"
+            style="@style/text_right_margin_style"
+            android:inputType="number" />
+    </LinearLayout>
+
+</LinearLayout>

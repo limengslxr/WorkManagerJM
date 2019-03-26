@@ -1,0 +1,272 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--用户名称-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/card_name" />
+
+            <TextView
+                android:id="@+id/tv_card_name"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--用户编号-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_costumer_number" />
+
+            <TextView
+                android:id="@+id/tv_card_id"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--地址-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_address" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/text_right_no_margin_style" />
+
+            <ImageButton
+                android:id="@+id/ib_map"
+                style="@style/text_right_map_style" />
+        </LinearLayout>
+
+        <!--水表口径-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_tv_caliber_value" />
+
+            <TextView
+                android:id="@+id/tv_caliber_value"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--表身码-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_bar_code" />
+
+            <TextView
+                android:id="@+id/tv_bar_code"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--表位-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_meter_position" />
+
+            <TextView
+                android:id="@+id/tv_meter_position"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--表类型-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_tv_type_value" />
+
+            <TextView
+                android:id="@+id/tv_meter_type"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--联系人-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_contact" />
+
+            <TextView
+                android:id="@+id/tv_contact"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--联系电话-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_tel" />
+
+            <TextView
+                android:id="@+id/tv_telephone"
+                style="@style/text_right_no_margin_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/ib_telephone"
+                style="@style/text_right_tel_style" />
+        </LinearLayout>
+
+        <!--主办人-->
+        <LinearLayout
+            android:id="@+id/ll_host_person"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_host_person" />
+
+            <TextView
+                android:id="@+id/tv_host_person"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--协助人-->
+        <LinearLayout
+            android:id="@+id/ll_assist_person"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_assist_person" />
+
+            <TextView
+                android:id="@+id/tv_assist_person"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--司机-->
+        <LinearLayout
+            android:id="@+id/ll_driver"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_driver" />
+
+            <TextView
+                android:id="@+id/tv_driver"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--平均水量-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_average_water" />
+
+            <TextView
+                android:id="@+id/tv_average_water"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--复用原因-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_reuse_reason" />
+
+            <TextView
+                android:id="@+id/tv_reuse_reason"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--工单来源-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_task_original" />
+
+            <TextView
+                android:id="@+id/tv_task_original"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--工单类型-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_order_type" />
+
+            <TextView
+                android:id="@+id/tv_task_type"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--最后抄码-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_tv_last_read" />
+
+            <TextView
+                android:id="@+id/tv_last_read"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--备注-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_remark" />
+
+            <TextView
+                android:id="@+id/tv_remark"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--派单时间-->
+        <LinearLayout
+            android:id="@+id/ll_register_time"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_register_time" />
+
+            <TextView
+                android:id="@+id/tv_register_time"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--处理时限-->
+        <LinearLayout
+            android:id="@+id/ll_end_time"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_handler_time_limit" />
+
+            <TextView
+                android:id="@+id/tv_end_time"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

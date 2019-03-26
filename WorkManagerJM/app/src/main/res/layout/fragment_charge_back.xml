@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--备注-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_back_reason" />
+
+        <EditText
+            android:id="@+id/et_back_reason"
+            style="@style/text_right_no_margin_style" />
+
+        <TextView
+            android:id="@+id/tv_back_reason"
+            style="@style/text_right_star_style" />
+    </LinearLayout>
+
+</LinearLayout>

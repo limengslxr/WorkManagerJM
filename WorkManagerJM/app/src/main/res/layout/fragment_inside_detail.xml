@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--工单类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_order_type" />
+
+        <TextView
+            android:id="@+id/tv_task_type"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--工单子类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_task_sub_type" />
+
+        <TextView
+            android:id="@+id/tv_task_sub_type"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--申请人-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_apply_person" />
+
+        <TextView
+            android:id="@+id/tv_apply_person"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--申请人电话-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_apply_tel" />
+
+        <TextView
+            android:id="@+id/tv_telephone"
+            style="@style/text_right_no_margin_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/ib_telephone"
+            style="@style/text_right_tel_style" />
+    </LinearLayout>
+
+    <!--协助人-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_assist_person" />
+
+        <TextView
+            android:id="@+id/tv_assist_person"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--司机-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_driver" />
+
+        <TextView
+            android:id="@+id/tv_driver"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--地址-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_address" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/text_right_no_margin_style" />
+
+        <ImageButton
+            android:id="@+id/ib_map"
+            style="@style/text_right_map_style" />
+    </LinearLayout>
+
+    <!--受理班组-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_accept_group" />
+
+        <TextView
+            android:id="@+id/tv_accept_group"
+            style="@style/text_right_margin_style"/>
+    </LinearLayout>
+
+    <!--备注-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_remark" />
+
+        <TextView
+            android:id="@+id/tv_remark"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--派单时间-->
+    <LinearLayout
+        android:id="@+id/ll_register_time"
+        style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_register_time" />
+
+        <TextView
+            android:id="@+id/tv_register_time"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+    <!--处理时限-->
+    <LinearLayout
+        android:id="@+id/ll_end_time"
+        style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_handler_time_limit" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+</LinearLayout>

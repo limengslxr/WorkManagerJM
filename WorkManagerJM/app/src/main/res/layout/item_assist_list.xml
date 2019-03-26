@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/card_view_padding_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/radius_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                android:id="@+id/tv_item_taskId"
+                style="@style/card_head_style" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_item_assist"
+                style="@style/button_dispatch"/>
+
+        </LinearLayout>
+
+        <View style="@style/card_view_line"/>
+
+        <!-- 工单类型 -->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_order_type" />
+
+            <TextView
+                android:id="@+id/tv_item_task_type"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!-- 审核状态 -->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_verify_status" />
+
+            <TextView
+                android:id="@+id/tv_item_verify_status"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!--处理人-->
+        <LinearLayout
+            android:id="@+id/ll_resolve_person"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_resolve_person" />
+
+            <TextView
+                android:id="@+id/tv_resolve_person"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!--申请人-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/detail_apply_person" />
+
+            <TextView
+                android:id="@+id/tv_item_apply_person"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--申请原因-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/detail_apply_reason" />
+
+            <TextView
+                android:id="@+id/tv_item_apply_reason"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!--申请人数-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/detail_apply_person_count" />
+
+            <TextView
+                android:id="@+id/tv_item_apply_person_count"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!--申请时间-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_apply_date" />
+
+            <TextView
+                android:id="@+id/tv_item_apply_date"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

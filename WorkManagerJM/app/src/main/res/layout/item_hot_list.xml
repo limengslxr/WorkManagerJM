@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/card_view_padding_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/radius_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--head部分-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <!--工单编号-->
+            <TextView
+                android:id="@+id/tv_item_taskId"
+                style="@style/card_head_style"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_item_mark"
+                style="@style/card_head_style"
+                android:textColor="@color/circle_button_stroke_selected"
+                android:text="@string/text_one_two_three"/>
+
+            <Button
+                android:id="@+id/btn_item_process"
+                style="@style/button_process" />
+
+        </LinearLayout>
+
+        <View style="@style/card_view_line"/>
+
+        <!--户名-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_user_number" />
+
+            <TextView
+                android:id="@+id/tv_item_card_name"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--地址-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_address" />
+
+            <TextView
+                android:id="@+id/tv_item_address"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--反应类型-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_response_type" />
+
+            <TextView
+                android:id="@+id/tv_item_response_type"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--处理人-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_resolve_person" />
+
+            <TextView
+                android:id="@+id/tv_resolve_person"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!--派单时间-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_register_time" />
+
+            <TextView
+                android:id="@+id/tv_item_register_time"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--处理时限-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/detail_handler_time_limit" />
+
+            <TextView
+                android:id="@+id/tv_item_end_date"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_divide_line"
+            style="@style/card_view_line"/>
+
+        <!--bottom-->
+        <LinearLayout
+            android:id="@+id/ll_module_handler"
+            style="@style/linear_layout_item">
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_receive"
+                    style="@style/circle_text_button"
+                    android:text="@string/text_receive_order" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_arrive"
+                    style="@style/circle_text_button"
+                    android:text="@string/text_on_spot" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_handle"
+                    style="@style/circle_text_button"
+                    android:text="@string/text_handler" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_assist"
+                    style="@style/circle_text_button"
+                    android:text="@string/text_apply_help" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_back"
+                    style="@style/circle_text_button"
+                    android:text="@string/text_charge_back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_delay"
+                    style="@style/circle_text_button"
+                    android:text="@string/text_delay" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/circle_text_button_coat"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_item_hang_up"
+                    style="@style/circle_text_button"
+                    android:visibility="gone"
+                    android:text="@string/text_hang_up" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

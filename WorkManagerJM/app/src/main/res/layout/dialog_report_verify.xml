@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--工单类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_order_task_type" />
+
+        <TextView
+            style="@style/text_right_margin_style"
+            android:text="@string/title_task_manager_meter"/>
+    </LinearLayout>
+
+    <!--子类型-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_task_sub_type" />
+
+        <Spinner
+            android:id="@+id/sp_task_sub_type"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--状态-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_status" />
+
+        <Spinner
+            android:id="@+id/sp_status"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+</LinearLayout>

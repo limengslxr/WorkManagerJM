@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--站点-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_station" />
+
+        <Spinner
+            android:id="@+id/sp_station"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--原因-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_reason" />
+
+        <EditText
+            android:id="@+id/et_reason"
+            style="@style/text_right_margin_style" />
+    </LinearLayout>
+
+</LinearLayout>

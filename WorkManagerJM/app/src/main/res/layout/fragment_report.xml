@@ -1,0 +1,141 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--表卡编号-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_card_number" />
+
+            <EditText
+                android:id="@+id/et_card_number"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--户名-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_user_number" />
+
+            <EditText
+                android:id="@+id/et_card_name"
+                style="@style/text_right_margin_style"/>
+        </LinearLayout>
+
+        <!--联系电话-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_contact_tel" />
+
+            <EditText
+                android:id="@+id/et_contact_tel"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--地址-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_address" />
+
+            <EditText
+                android:id="@+id/et_address"
+                style="@style/text_right_no_margin_style" />
+
+            <ImageButton
+                android:id="@+id/ib_map"
+                style="@style/text_right_map_style"/>
+
+            <TextView style="@style/text_right_star_style" />
+
+        </LinearLayout>
+
+        <!--水表条形码-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_tv_seal_number" />
+
+            <EditText
+                android:id="@+id/et_bar_code"
+                style="@style/text_right_no_margin_style"/>
+
+            <ImageButton
+                android:id="@+id/ib_scan"
+                style="@style/text_right_scan_style"/>
+        </LinearLayout>
+
+        <!--最新抄码-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/detail_tv_new_read" />
+
+            <EditText
+                android:id="@+id/et_new_read"
+                style="@style/text_right_margin_style"
+                android:maxLength="8"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <!--工单类型-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_order_type" />
+
+            <Spinner
+                android:id="@+id/sp_new_meter_order_type"
+                style="@style/spinner_no_margin_style" />
+
+            <TextView style="@style/text_right_star_style" />
+
+        </LinearLayout>
+
+        <!-- 审核状态 -->
+        <LinearLayout
+            android:id="@+id/ll_verify_status"
+            android:visibility="gone"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_verify_status" />
+
+            <TextView
+                android:id="@+id/tv_verify_status"
+                style="@style/text_right_margin_style" />
+        </LinearLayout>
+
+        <!--描述-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_describe" />
+
+            <EditText
+                android:id="@+id/et_describe"
+                style="@style/text_remark_no_margin_style" />
+
+            <TextView style="@style/text_right_star_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

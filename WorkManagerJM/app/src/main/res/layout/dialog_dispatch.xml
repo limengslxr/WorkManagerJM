@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--接单人-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_accept_person" />
+
+        <com.sh3h.workmanagerjm.view.MultiSpinnerSearch
+            android:id="@+id/mss_accept_person"
+            style="@style/spinner_no_margin_style" />
+
+        <TextView style="@style/text_right_star_style" />
+    </LinearLayout>
+
+    <!--难度系数-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_difficult_index" />
+
+        <Spinner
+            android:id="@+id/sp_difficult_index"
+            style="@style/spinner_no_margin_style" />
+
+        <TextView style="@style/text_right_star_style" />
+    </LinearLayout>
+
+    <!--司机-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_driver" />
+
+        <Spinner
+            android:id="@+id/sp_driver"
+            style="@style/spinner_margin_style" />
+    </LinearLayout>
+
+    <!--协助人-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/detail_assist_person" />
+
+        <com.sh3h.workmanagerjm.view.MultiSpinnerSearch
+            android:id="@+id/mss_assist_person"
+            style="@style/spinner_margin_style"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!--完成时间-->
+    <LinearLayout style="@style/linear_layout_item">
+
+        <TextView
+            style="@style/text_left_style"
+            android:text="@string/text_complete_date" />
+
+        <TextView
+            android:id="@+id/tv_complete_date"
+            style="@style/text_right_no_margin_style" />
+
+        <TextView style="@style/text_right_star_style" />
+    </LinearLayout>
+
+</LinearLayout>

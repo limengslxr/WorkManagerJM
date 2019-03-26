@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/card_view_padding_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/radius_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                android:id="@+id/tv_item_name"
+                style="@style/card_head_style" />
+        </LinearLayout>
+
+        <View style="@style/card_view_line"/>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView style="@style/card_average_content_style"/>
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_delay"/>
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_hang_up"/>
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_recovery"/>
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_charge_back"/>
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_apply_help"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_split"/>
+
+            <TextView
+                android:id="@+id/tv_item_split_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_split_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_split_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_split_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_split_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_replace"/>
+
+            <TextView
+                android:id="@+id/tv_item_replace_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_replace_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_replace_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_replace_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_replace_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_reinstall"/>
+
+            <TextView
+                android:id="@+id/tv_item_reinstall_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reinstall_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reinstall_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reinstall_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reinstall_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_stop"/>
+
+            <TextView
+                android:id="@+id/tv_item_stop_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_stop_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_stop_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_stop_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_stop_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_move"/>
+
+            <TextView
+                android:id="@+id/tv_item_move_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_move_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_move_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_move_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_move_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_check"/>
+
+            <TextView
+                android:id="@+id/tv_item_check_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_check_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_check_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_check_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_check_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_reuse"/>
+
+            <TextView
+                android:id="@+id/tv_item_reuse_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reuse_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reuse_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reuse_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_reuse_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_notice_simple"/>
+
+            <TextView
+                android:id="@+id/tv_item_notice_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_notice_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_notice_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_notice_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_notice_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_sub_type_verify_simple"/>
+
+            <TextView
+                android:id="@+id/tv_item_verify_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_verify_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_verify_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_verify_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_verify_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_type_call_pay_simple"/>
+
+            <TextView
+                android:id="@+id/tv_item_call_pay_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_call_pay_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_call_pay_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_call_pay_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_call_pay_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_type_install_simple"/>
+
+            <TextView
+                android:id="@+id/tv_item_install_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_install_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_install_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_install_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_install_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_type_inside_simple"/>
+
+            <TextView
+                android:id="@+id/tv_item_inside_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_inside_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_inside_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_inside_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_inside_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_average_content_style"
+                android:text="@string/text_type_hot_simple"/>
+
+            <TextView
+                android:id="@+id/tv_item_hot_delay"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_hot_hang_up"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_hot_recovery"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_hot_reject"
+                style="@style/card_average_content_style"/>
+
+            <TextView
+                android:id="@+id/tv_item_hot_assist"
+                style="@style/card_average_content_style"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

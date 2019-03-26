@@ -1,0 +1,193 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--处理结果-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_handle_result" />
+
+            <Spinner
+                android:id="@+id/sp_handle_result"
+                style="@style/spinner_no_margin_style" />
+
+            <TextView style="@style/text_right_star_style" />
+        </LinearLayout>
+
+        <!--处理内容-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_handle_content" />
+
+            <EditText
+                android:id="@+id/et_handle_content"
+                style="@style/text_right_no_margin_style"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tv_handle_content"
+                style="@style/text_right_star_style" />
+        </LinearLayout>
+
+        <!--物料-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/text_left_style"
+                android:text="@string/text_materiel" />
+
+            <Button
+                android:id="@+id/btn_input_material"
+                style="@style/text_right_add_style" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_input_material"
+                style="@style/text_right_star_style" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/cb_replace_meter"
+            style="@style/check_box_detail"
+            android:text="@string/text_if_replace_meter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--旧表底码-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_old_meter_number" />
+
+                <EditText
+                    android:id="@+id/et_old_meter_number"
+                    style="@style/text_right_number_no_margin_style" />
+
+                <TextView
+                    android:id="@+id/tv_old_meter_number"
+                    style="@style/text_right_star_style" />
+            </LinearLayout>
+
+            <!--新表类型-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_new_meter_type" />
+
+                <Spinner
+                    android:id="@+id/sp_new_meter_type"
+                    style="@style/spinner_no_margin_style" />
+
+                <TextView
+                    android:id="@+id/tv_new_meter_type"
+                    style="@style/text_right_star_style" />
+            </LinearLayout>
+
+            <!--新表口径-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_new_meter_caliber" />
+
+                <Spinner
+                    android:id="@+id/sp_new_meter_caliber"
+                    style="@style/spinner_no_margin_style" />
+
+                <TextView
+                    android:id="@+id/tv_new_meter_caliber"
+                    style="@style/text_right_star_style" />
+            </LinearLayout>
+
+            <!--新表表身码-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_new_seal_number" />
+
+                <EditText
+                    android:id="@+id/et_bar_code"
+                    style="@style/text_right_no_margin_style" />
+
+                <ImageButton
+                    android:id="@+id/ib_scan"
+                    style="@style/text_right_scan_style" />
+
+                <TextView
+                    android:id="@+id/tv_bar_code"
+                    style="@style/text_right_star_style" />
+            </LinearLayout>
+
+            <!--新表厂家-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_new_meter_producer" />
+
+                <Spinner
+                    android:id="@+id/sp_new_meter_producer"
+                    style="@style/spinner_no_margin_style" />
+
+                <TextView
+                    android:id="@+id/tv_new_meter_producer"
+                    style="@style/text_right_star_style" />
+            </LinearLayout>
+
+            <!--新表读数-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_new_table_reader" />
+
+                <EditText
+                    android:id="@+id/et_new_meter_number"
+                    style="@style/text_right_number_no_margin_style" />
+
+                <TextView
+                    android:id="@+id/tv_new_meter_number"
+                    style="@style/text_right_star_style" />
+            </LinearLayout>
+
+            <!--备注-->
+            <LinearLayout style="@style/linear_layout_item">
+
+                <TextView
+                    style="@style/text_left_style"
+                    android:text="@string/text_remark" />
+
+                <EditText
+                    android:id="@+id/et_remark"
+                    style="@style/text_remark_margin_style" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

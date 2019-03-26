@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_4"
+    android:paddingRight="@dimen/padding_4"
+    android:paddingTop="@dimen/padding_10">
+
+    <LinearLayout
+        android:id="@+id/ll_construction"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_take_photo"
+                style="@style/radio_button_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/button_camera"
+                android:text="@string/radio_take_picture" />
+
+            <RadioButton
+                android:id="@+id/rb_select_photo"
+                style="@style/radio_button_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/button_album"
+                android:text="@string/radio_album" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.sh3h.workmanagerjm.view.VoiceView
+            android:id="@+id/vv_voice"
+            style="@style/radio_button_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/button_voice"
+            android:text="@string/text_voice" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_voice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

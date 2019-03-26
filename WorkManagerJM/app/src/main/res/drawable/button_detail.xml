@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 工单处理界面的工大详细信息页面 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_order_details_blue_48px" android:state_checked="true" />
+    <item android:drawable="@mipmap/ic_order_details_blue_48px" android:state_pressed="true" />
+    <item android:drawable="@mipmap/ic_order_details_gray_48px" />
+</selector>

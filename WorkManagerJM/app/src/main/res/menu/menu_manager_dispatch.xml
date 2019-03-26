@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_dispatch_dispatch"
+        android:icon="@mipmap/ic_refresh"
+        android:title="@string/menu_dispatch"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_transform_dispatch"
+        android:icon="@mipmap/ic_station"
+        android:title="@string/menu_station"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_cancel_dispatch"
+        android:icon="@mipmap/ic_cancel"
+        android:title="@string/menu_cancel"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+</menu>

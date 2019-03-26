@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/card_view_padding_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/radius_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                android:id="@+id/tv_item_taskId"
+                style="@style/card_head_style" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_item_mark"
+                style="@style/card_head_style"
+                android:text="@string/text_one_two_three"
+                android:textColor="@color/circle_button_stroke_selected"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_item_process"
+                style="@style/button_process" />
+
+        </LinearLayout>
+
+        <View style="@style/card_view_line" />
+
+        <!-- 户名 -->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_user_number" />
+
+            <TextView
+                android:id="@+id/tv_item_card_name"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--地址-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_address" />
+
+            <TextView
+                android:id="@+id/tv_item_address"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--工单类型-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_order_type" />
+
+            <TextView
+                android:id="@+id/tv_item_order_type"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--处理人-->
+        <LinearLayout
+            android:id="@+id/ll_resolve_person"
+            style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_resolve_person" />
+
+            <TextView
+                android:id="@+id/tv_resolve_person"
+                style="@style/card_right_content_style" />
+        </LinearLayout>
+
+        <!--完成时间-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_complete_date" />
+
+            <TextView
+                android:id="@+id/tv_item_complete_date"
+                style="@style/card_right_content_style" />
+
+        </LinearLayout>
+
+        <!--处理情况-->
+        <LinearLayout style="@style/linear_layout_item">
+
+            <TextView
+                style="@style/card_left_content_style"
+                android:text="@string/text_result" />
+
+            <TextView
+                android:id="@+id/tv_item_result"
+                style="@style/card_right_content_style" />
+
+            <TextView
+                android:id="@+id/tv_item_temporary"
+                style="@style/card_right_content_style"
+                android:text="@string/text_temporary_not_upload"
+                android:textColor="@color/color_red" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_history_line"
+            style="@style/card_view_line" />
+
+
+        <LinearLayout style="@style/linear_layout_item">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_item_upload_flag"
+                    style="@style/card_bottom_style"
+                    android:src="@mipmap/ic_cloud" />
+
+                <TextView
+                    android:id="@+id/tv_item_upload_flag"
+                    style="@style/card_bottom_style" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_item_photo_number"
+                    style="@style/card_bottom_style"
+                    android:src="@mipmap/ic_picture" />
+
+                <TextView
+                    android:id="@+id/tv_item_photo_number"
+                    style="@style/card_bottom_style" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_item_voice_number"
+                    style="@style/card_bottom_style"
+                    android:src="@mipmap/ic_voice" />
+
+                <TextView
+                    android:id="@+id/tv_item_voice_number"
+                    style="@style/card_bottom_style" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
