@@ -1,0 +1,110 @@
+.bulb-yellow{
+	height: 24px;
+	width:17px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-2px;
+	background-position-y:-2px
+}
+.bulb-red{
+	height: 24px;
+	width:17px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-22px;
+	background-position-y:-2px
+}
+.position-icon{
+	height: 24px;
+	width:17px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-2px;
+	background-position-y:-35px
+}
+.refresh-icon{
+	height: 36px;
+	width:36px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-22px;
+	background-position-y:-31px
+}
+.back-icon{
+	height: 38px;
+	width:23px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-64px;
+	background-position-y:-30px;
+}
+.pump-cs-red{
+	height: 17px;
+	width:25px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-44px;
+	background-position-y:-5px
+}
+.pump-cs-green{
+	height: 17px;
+	width:25px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-73px;
+	background-position-y:-5px
+}
+.pump-cs-yellow{
+	height: 17px;
+	width:25px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-103px;
+	background-position-y:-5px
+}
+.pump-cs-blue{
+	height: 17px;
+	width:25px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-132px;
+	background-position-y:-5px
+}
+
+.pump-rs-green{
+	height: 17px;
+	width:24px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-95px;
+	background-position-y:-27px
+}
+.pump-rs-yellow{
+	height: 17px;
+	width:24px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-122px;
+	background-position-y:-27px
+}
+.pump-rs-blue{
+	height: 17px;
+	width:24px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-95px;
+	background-position-y:-50px
+}
+.pump-rs-red{
+	height: 17px;
+	width:24px;
+	background-image: url(../../../assets/img/mobile/icon.png);
+	background-repeat:no-repeat;
+	background-position-x:-122px;
+	background-position-y:-50px
+}
+.user-over-icon{
+	height: 30px;
+	width:30px;
+	background-image: url(../../assets/img/mobile/ID_over.png);
+}

@@ -1,0 +1,11 @@
+
+<table  class="table" style="font-size:12px;width:100%;">
+	<thead ng-if="showHead">
+		<tr>
+			<th style="text-align:center" ng-repeat='head in heads'>{{head}}</th>
+		</tr>
+	</thead>
+	<tr style="text-align:center" ng-repeat="row in data">
+		<td ng-repeat='d in row'>{{d}}</td>
+	</tr>
+</table>

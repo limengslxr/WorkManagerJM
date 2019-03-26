@@ -1,0 +1,190 @@
+<div class="content" ng-show="show(2, 1)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">平均水量&nbsp;：&nbsp;{{work.averageWaterQuantity}}</p>
+    <p class="text">拆表原因&nbsp;：&nbsp;{{work.processReason}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;拆表</p>
+    <p class="text">拆表类型&nbsp;：&nbsp;{{splitType()}}</p>
+    <p class="text">最后抄码&nbsp;：&nbsp;{{work.lastReading}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 2)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">平均水量&nbsp;：&nbsp;{{work.averageWaterQuantity}}</p>
+    <p class="text">换表原因&nbsp;：&nbsp;{{work.processReason}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;换表</p>
+    <p class="text">换表类型&nbsp;：&nbsp;{{replaceType()}}</p>
+    <p class="text">最后抄码&nbsp;：&nbsp;{{work.lastReading}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 3)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">平均水量&nbsp;：&nbsp;{{work.averageWaterQuantity}}</p>
+    <p class="text">复装原因&nbsp;：&nbsp;{{work.processReason}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;复装</p>
+    <p class="text">最后抄码&nbsp;：&nbsp;{{work.lastReading}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 4)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">平均水量&nbsp;：&nbsp;{{work.averageWaterQuantity}}</p>
+    <p class="text">停水原因&nbsp;：&nbsp;{{work.processReason}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;停水</p>
+    <p class="text">最后抄码&nbsp;：&nbsp;{{work.lastReading}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 5)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">预交款&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.prepaidMoney}}</p>
+    <p class="text">类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{moveType()}}</p>
+    <p class="text">供水方式&nbsp;：&nbsp;{{work.supplyWater}}</p>
+    <p class="text">备注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.remark}}</p>
+    <p class="text">受理站点&nbsp;：&nbsp;{{work.station}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 6)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">原表行度&nbsp;：&nbsp;{{work.meterDegree}}</p>
+    <p class="text">验表原因&nbsp;：&nbsp;{{work.processReason}}</p>
+    <p class="text">平均水量&nbsp;：&nbsp;{{work.averageWaterQuantity}}</p>
+    <p class="text">备注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.remark}}</p>
+    <p class="text">受理站点&nbsp;：&nbsp;{{work.station}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 7)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">水表口径&nbsp;：&nbsp;{{work.caliber}}</p>
+    <p class="text">表身码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.barCode}}</p>
+    <p class="text">表位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterPosition}}</p>
+    <p class="text">表类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.meterType}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">平均水量&nbsp;：&nbsp;{{work.averageWaterQuantity}}</p>
+    <p class="text">复用原因&nbsp;：&nbsp;{{work.processReason}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;复用</p>
+    <p class="text">最后抄码&nbsp;：&nbsp;{{work.lastReading}}</p>
+</div>
+
+<div class="content" ng-show="show(2, 8)">
+    <p class="text">备注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.remark}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;停水通知单</p>
+</div>
+
+<div class="content" ng-show="show(2, 9)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">装表人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.processPerson}}</p>
+    <p class="text">转表日期&nbsp;：&nbsp;{{formatDetailTime(work.processDate)}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;新装水表核对</p>
+</div>
+
+<div class="content" ng-show="show(3, 0)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">册号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.volume}}</p>
+    <p class="text">册内序号&nbsp;：&nbsp;{{work.volumeIndex}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">欠费跨度&nbsp;：&nbsp;{{work.arrearageRange}}</p>
+    <p class="text">欠费金额&nbsp;：&nbsp;{{work.arrearageMoney}}</p>
+</div>
+
+<div class="content" ng-show="show(5, 0)">
+    <p class="text">用户名称&nbsp;：&nbsp;{{work.cardName}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">联系人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.contacts}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">水表种类&nbsp;：&nbsp;{{meterKind()}}</p>
+    <p class="text">工单来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">工单类型&nbsp;：&nbsp;新装</p>
+</div>
+
+<div class="content" ng-show="show(8, 0)">
+    <p class="text">工单类型&nbsp;：&nbsp;内部工单</p>
+    <p class="text">子类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{insideType()}}</p>
+    <p class="text">申请人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.processPerson}}</p>
+    <p class="text">申请人电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">受理班组&nbsp;：&nbsp;{{work.acceptGroup}}</p>
+    <p class="text">备注&nbsp;：&nbsp;{{work.remark}}</p>
+</div>
+
+<div class="content" ng-show="show(9, 0)">
+    <p class="text">工单编号&nbsp;：&nbsp;{{work.taskId}}</p>
+    <p class="text">热线编号&nbsp;：&nbsp;{{work.hotTaskId}}</p>
+    <p class="text">用户编号&nbsp;：&nbsp;{{work.cardId}}</p>
+    <p class="text">站点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.station}}</p>
+    <p class="text">反映人&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.processPerson}}</p>
+    <p class="text">联系电话&nbsp;：&nbsp;{{work.telephone}}</p>
+    <p class="text">反应类型&nbsp;：&nbsp;{{work.responseType}}</p>
+    <p class="text">反应内容&nbsp;：&nbsp;{{work.responseContent}}</p>
+    <p class="text">反应时间&nbsp;：&nbsp;{{formatDetailTime(work.processDate)}}</p>
+    <p class="text">发生地址&nbsp;：&nbsp;{{work.address}}</p>
+    <p class="text">处理级别&nbsp;：&nbsp;{{work.resolveLevel}}</p>
+    <p class="text">反应来源&nbsp;：&nbsp;{{work.taskOrigin}}</p>
+    <p class="text">反应区块&nbsp;：&nbsp;{{work.responseArea}}</p>
+    <p class="text">受理备注&nbsp;：&nbsp;{{work.remark}}</p>
+    <p class="text">工单状态&nbsp;：&nbsp; 未处理</p>
+</div>

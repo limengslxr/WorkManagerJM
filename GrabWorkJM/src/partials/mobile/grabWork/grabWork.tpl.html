@@ -1,0 +1,7 @@
+<div class="content">
+    <div class="itemClass" ng-repeat="work in works" ng-click="grabWork(work)">
+        <p class="text">户名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.cardName}}</p>
+        <p class="text">地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{work.address}}</p>
+        <p class="text">类型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：&nbsp;{{transformMultiType(work)}}</p>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+body {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.app {
+	
+}
+
+.app-content {
+	overflow: auto;
+}
+
+.app-view {
+	width: 100%;
+	height: 100%;	
+}

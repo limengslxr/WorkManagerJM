@@ -1,0 +1,30 @@
+.top{
+	width: 100%; 
+	height: 100%;
+	font-size:21px;
+	color:#ffffff;
+	background-color:#5d81c1;
+	position: relative; 
+
+}
+.vertical {
+    position: absolute;
+    top: 0;
+    bottom: 0;    
+    margin: auto;
+    line-height: 56px;
+    margin-left: 60px;
+}
+.title-content{
+	text-align:center;
+	height:50px;
+	font:bold 17px 微软雅黑;
+	color:#5d81c1;
+	background-color:#f0f5fe
+}
+.item-content-body{
+	height:50px;
+	text-align:center;
+	font-size:14px;
+	font-family:微软雅黑
+}

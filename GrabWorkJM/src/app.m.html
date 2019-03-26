@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="" ng-cloak ng-controller="appCtrl">
+
+<head>
+    <!-- BEGIN PAGE META  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy">
+    <title>{{page.info.title}}</title>
+    <meta name="description" content="{{page.info.description}}">
+    <meta name="viewport" content="width=1, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- END PAGE META -->
+    <!-- BEGIN STYLE -->
+    <link href="assets/vendor/sui-mobile/dist/css/sm.min.css" rel="stylesheet">
+    <!-- END STYLE -->
+</head>
+
+<body>
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="app">
+        <div class="app-content" resizable ng-style="viewSize">
+            <div class="app-view" ui-view></div>
+        </div>
+    </div>
+    <!-- END MAIN CONTENT-->
+    <!-- BEGIN SCRIPT -->
+    <!-- BEGIN VENDOR SCRIPT -->
+    <script src="assets/vendor/zepto/zepto.min.js"></script>
+    <script>
+    $.config = {
+        router: false
+    };
+    </script>
+    <script src="assets/vendor/sui-mobile/dist/js/sm.min.js"></script>
+    <script src="assets/vendor/angular/angular.min.js"></script>
+    <script src="assets/vendor/angular-resource/angular-resource.min.js"></script>
+    <script src="assets/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="assets/vendor/oclazyload/dist/ocLazyLoad.require.min.js"></script>
+    <script src="assets/vendor/moment/moment.js"></script>
+    <script src="assets/vendor/requirejs/require.js" data-main="main.js"></script>
+    <!-- <script src="assets/js/cordova.js"></script> -->
+    <!-- END VENDOR SCRIPT -->
+    <!-- END SCRIPT -->
+</body>
+
+</html>

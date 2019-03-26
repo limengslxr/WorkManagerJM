@@ -1,0 +1,36 @@
+{
+  "name": "scaffold",
+  "description": "",
+  "authors": [
+    "yuanjie <yuanjie@shanghai3h.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "modernizr-min": "^3.2.0",
+    "angular": "^1.5.7",
+    "angular-resource": "^1.5.7",
+    "angular-messages": "^1.5.7",
+    "angular-ui-router": "^0.3.0",
+    "oclazyload": "^1.0.9",
+    "requirejs": "^2.2.0",
+    "require-css": "^0.1.8",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "jquery-minicolors": "^2.2.4",
+    "jstree": "^3.3.1",
+    "zTree": "^3.5.24",
+    "angular-ui-select": "^0.18.0",
+    "angular-sanitize": "^1.5.7",
+    "echarts": "^3.1.10",
+    "zepto": "^1.1.6"
+  }
+}
